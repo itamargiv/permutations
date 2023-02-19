@@ -1,0 +1,18 @@
+{
+  "name": "permutations",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "An Elm package for data structure permutations",
+  "main": "src/Permutations.elm",
+  "scripts": {
+    "test": "elm-test"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "Itamar Givon <itamae.givon.dev@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "elm-test": "^0.19.1-revision12"
+  }
+}
