@@ -1,10 +1,6 @@
 module Permutations exposing (ofList)
 
-{-| This library allows for an easy way to quickly create permutations of lists.
-it is heavily based on the permutations function as written for Haskell in the 
-[Data.List module](https://hackage.haskell.org/package/base-4.17.0.0/docs/src/Data.OldList.html#permutations).
-
-# Permutations
+{-|
 @docs ofList
 -}
 
@@ -14,15 +10,16 @@ import List
 {-| Type alias to represent permutations, which are essentially a list of lists
 -}
 type alias Permutations a = List (List a)
+
+{-| Type alias to represent a pair of values to interleave into a list
+-}
 type alias Interleaver a = (a , List a)
-
-
 
 {-| Return a list of all possible permutations of a list.
 
     fromList [0, 1] == [[0, 1], [1, 0]]
 -}
-ofList : List a -> Permutations a
+ofList : List a -> List (List a)
 ofList list = 
     let 
         permute interim base =
