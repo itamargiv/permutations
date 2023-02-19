@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0]
+
 ### Added
 
-- An initial implementation of the list permutation function, based on the 
+- Initial implementation of the list permutation function, based on the 
   `Data.List.permutations` function in Haskell.
 
-[unreleased]: https://github.com/itamargiv/permutations
+[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.1.0...HEAD
+[1.0.0]: https://github.com/itamargiv/permutations/releases/tag/1.0.0
