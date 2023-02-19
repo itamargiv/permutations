@@ -18,7 +18,7 @@ jobs:
       matrix:
         node-version: [16.x, 18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        elm-version: [19.0.1]
+        elm-version: [0.19.1]
 
     steps:
     - uses: actions/checkout@v3
