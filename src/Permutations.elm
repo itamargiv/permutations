@@ -17,7 +17,7 @@ type alias Interleaver a = (a , List a)
 
 {-| Return a list of all possible permutations of a list.
 
-    fromList [0, 1] == [[0, 1], [1, 0]]
+    ofList [0, 1] == [[0, 1], [1, 0]]
 -}
 ofList : List a -> List (List a)
 ofList list = 
